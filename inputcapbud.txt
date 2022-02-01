@@ -1,0 +1,14 @@
+##################### Note #####################################
+- The subsidiary development plan input format : 
+"(cost, reuturn), (cost, return), ..."
+- Inputting cost&return starts from plan 1 for each subsidiary
+- One subsidiary's plan per line
+################################################################
+
+Total Capital Budget:
+"14"
+
+Subsidiary's Development Plans:
+"(2,3), (4,6), (7,10)"
+"(1,2), (3,5)"
+"(3,5), (5,7), (8,13)"

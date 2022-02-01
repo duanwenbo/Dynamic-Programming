@@ -1,0 +1,27 @@
+The optimal decisions and associated values table is:
+
+       (d0(S), V0(S))| (d1(S), V1(S))| (d2(S), V2(S))| (d3(S), V3(S))| (d4(S), V4(S))|
+4           ________|       ________|       ________|       ________|               0|
+3           ________|       ________|       ________|         (U, 3)|               0|
+2           ________|       ________|         (D, 4)|         (D, 1)|               0|
+1           ________|         (U, 6)|         (D, 4)|         (U, 2)|               0|
+0        (U or D, 8)|         (U, 7)|         (U, 6)|         (U, 3)|               0|
+stage              0              1              2              3              4
+
+As illustrated from the table:
+- There are 2 optimal routes
+- The optimal cost is 8
+
+- Optimal route 1
+Turning UP from node (0, 0) to node (1, 1)
+Turning UP from node (1, 1) to node (2, 2)
+Turning DOWN from node (2, 2) to node (3, 2)
+Turning DOWN from node (3, 2) to node (4, 2)
+At a total cost of 8
+
+- Optimal route 2
+Turning DOWN from node (0, 0) to node (1, 0)
+Turning UP from node (1, 0) to node (2, 1)
+Turning DOWN from node (2, 1) to node (3, 1)
+Turning UP from node (3, 1) to node (4, 2)
+At a total cost of 8
